@@ -13,17 +13,25 @@ background-color: #333;
 main{
     height: 100%;
     width: 100%;
-    background-color: rgb(52, 29, 75);
+  
     display: flex;
 }
 .left{
  width: 50%;
     height: 100%;
-    background-color: transparent;
-    border: 5px solid red;
+    background-color: rgb(52, 29, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .right{
    width: 50%;
     height: 100%;
     background-color: rgb(49, 130, 130);
+     display: flex;
+    justify-content: center;
+    align-items: center;
 } 
+
